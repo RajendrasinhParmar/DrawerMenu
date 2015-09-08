@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095AE45E1B9F603200F8F805 /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 095AE45D1B9F603200F8F805 /* Menu.png */; };
 		09DB6DC11B92CC9E001BD1E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DB6DC01B92CC9E001BD1E6 /* main.m */; };
 		09DB6DC41B92CC9E001BD1E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DB6DC31B92CC9E001BD1E6 /* AppDelegate.m */; };
 		09DB6DC71B92CC9E001BD1E6 /* DrawerMenu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09DB6DC51B92CC9E001BD1E6 /* DrawerMenu.xcdatamodeld */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		095AE45D1B9F603200F8F805 /* Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu.png; sourceTree = "<group>"; };
 		09DB6DBB1B92CC9E001BD1E6 /* DrawerMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawerMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09DB6DBF1B92CC9E001BD1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09DB6DC01B92CC9E001BD1E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 		09DB6DBD1B92CC9E001BD1E6 /* DrawerMenu */ = {
 			isa = PBXGroup;
 			children = (
+				095AE45D1B9F603200F8F805 /* Menu.png */,
 				09DB6DC21B92CC9E001BD1E6 /* AppDelegate.h */,
 				09DB6DC31B92CC9E001BD1E6 /* AppDelegate.m */,
 				09DB6DE71B92E828001BD1E6 /* MenuViewController.h */,
@@ -217,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095AE45E1B9F603200F8F805 /* Menu.png in Resources */,
 				09DB6DCD1B92CC9E001BD1E6 /* Main.storyboard in Resources */,
 				09DB6DD21B92CC9E001BD1E6 /* LaunchScreen.xib in Resources */,
 				09DB6DCF1B92CC9E001BD1E6 /* Images.xcassets in Resources */,
