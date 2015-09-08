@@ -108,14 +108,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E2E-ce-w4d">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E2E-ce-w4d">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
                                 <connections>
                                     <segue destination="UQD-zR-p9u" kind="embed" identifier="embedMenu" id="WVT-9g-C4f"/>
                                 </connections>
                             </containerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="E2E-ce-w4d" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Oef-1g-zYr"/>
+                            <constraint firstItem="E2E-ce-w4d" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="Pr6-4Y-2U9"/>
+                            <constraint firstItem="E2E-ce-w4d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WNH-J1-uu3"/>
+                            <constraint firstAttribute="trailing" secondItem="E2E-ce-w4d" secondAttribute="trailing" id="lkv-D2-FPh"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -127,7 +133,7 @@
             <objects>
                 <tableViewController id="UQD-zR-p9u" customClass="MenuViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="neQ-SN-il4">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
